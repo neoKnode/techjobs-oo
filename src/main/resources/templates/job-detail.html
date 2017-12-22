@@ -8,7 +8,9 @@
 
 <div class="container body-content">
 
-<table th:each="jobbies : ${singleJob}">
+    <!-- // TODO #2 - display the job fields, one per row -->
+
+    <table th:each="jobbies : ${singleJob}">
     <tr>
     <th>Name</th>
     <td th:text="${jobbies.name}"></td>
@@ -31,7 +33,6 @@
     </tr>
 </table>
 
-    <!-- // TODO #2 - display the job fields, one per row -->
 
 </div>
 
